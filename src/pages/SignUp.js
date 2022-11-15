@@ -98,7 +98,7 @@ const Signup = () => {
               type="submit"
               onClick={() => setShow(true) & setSpinner(true)}
             >
-              Login
+              Register
             </LoanproButton>
           </div>
         </Form>
