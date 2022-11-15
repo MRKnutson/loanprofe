@@ -1,0 +1,16 @@
+
+#loginBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* color: black; */
+}
+#loginName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  max-width: 50vw;
+  font-size: 5vh;
+}

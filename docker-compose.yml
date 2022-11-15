@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  loanprofe:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: loanpro_fe
+    platform: linux/x86_64
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./loanprofe:/app
+    stdin_open: true
+    tty: true

@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+* {
+  font-family: raleway, sans-serif !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+  padding: 5px;
+  background-color: rgb(188, 188, 188);
+  color: rgb(6, 255, 159);
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* this is all navbar styling */
+.navbar-nav .dropdown-menu {
+  background-color: #3e619b;
+  border: none;
+  outline: none;
+}
+.navbar-nav .dropdown-menu a:hover {
+  background-color: #ef4b4c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-nav .dropdown-item {
+  color: white;
+  font-weight: 700;
+}
+
+.navdropdown-title {
+  color: white;
+  font-weight: 700;
+}
+
+#navdropdown-arrow {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-links:hover {
+  text-decoration: underline;
+  text-decoration-color: #ef4b4c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-links {
+  color: white !important;
+  font-weight: 700 !important;
+  margin: 1rem;
+}
+
+.special-card {
+  background-color: #2a3950;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.record {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.modal-content {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.search-bar {
+  border: none;
+  width: 10rem;
+  float: right;
+  border-radius: 0.35rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+  background-color: #ef4b4c;
+  color: #ffffff;
+  padding-left: 0.5rem;
+  font-weight: 700;
+}
+.search-bar::placeholder {
+  color: #ffffff;
+  padding-left: 0.5rem;
+}
+
+.mood-button:focus {
+  -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+}
+
+.mood-button-active {
+  -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+}
+
+.mood-button:hover {
+  -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+}
+
+.record-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.record-button:focus {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.how-to {
+  color: #2a3950;
+}
+
+.profile-input {
+  background-color: #ebebeb;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 0.5rem;
+  width: auto;
+  border-radius: 0.2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  color: #2a3950;
+}
+
+.profile-label {
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+  color: #2a3950;
+  font-weight: 700;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+  background-color: #3e619b;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  padding: 2rem;
+  z-index: 9999;
+  border-radius: 1.5rem;
+  width: 10rem;
+}
+
+.continue {
+  font-size: larger;
+  color: #2a3950;
+  font-weight: 700;
+}
+
+.continue:hover {
+  color: darkgray;
 }
